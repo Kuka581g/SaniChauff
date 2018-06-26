@@ -14,7 +14,7 @@
 			<div class="content-inner">                                                      
 				<div class="single-entry-summary">
 					<p>
-					Implantée à Helesmes entre Valenciennes et Lille dans le département du Nord, 2d SaniChauff est une entreprise de plombier-chauffagiste et électricité dans le Nord de la France.<br>
+					Implantée à Helesmes entre Valenciennes et Lille dans le département du Nord, 2D SaniChauff est une entreprise de plombier-chauffagiste et électricité dans le Nord de la France.<br>
 					2D SaniChauff est une entreprise artisanale pour qui la satisfaction du client est une priorité.<br>
 					Nous avons acquis une expérience de plus de 25 ans dans le domaine […]
 					</p>

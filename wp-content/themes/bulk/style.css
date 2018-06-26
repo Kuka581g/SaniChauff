@@ -651,7 +651,7 @@ p.site-description {
     max-width: 1000%;
     min-height: 100%;
     width: auto;
-    top: 50%;
+    top: 75%;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1011,12 +1011,12 @@ li.woocommerce-MyAccount-navigation-link.is-active a {
 }
 #wp-custom-header img {
     position: absolute;
-    height: auto;
+    height: 95%;
     left: 50%;
     max-width: 1000%;
-    min-height: 100%;
-    width: auto;
-    top: 50%;
+    min-height: 0%;
+    width: 100%;
+    top: 54%;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1042,6 +1042,7 @@ li.woocommerce-MyAccount-navigation-link.is-active a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 0px 0px 12px #686868;
+    display: none;
 }
 .header-image-text .site-description {
     font-size: 46px;

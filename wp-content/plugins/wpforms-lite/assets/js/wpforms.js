@@ -13,9 +13,6 @@
 		 */
 		init: function() {
 
-			// Set user identifier
-			WPForms.setUserIndentifier();
-
 			// Document ready
 			$(document).ready(WPForms.ready);
 
@@ -31,6 +28,9 @@
 		 * @since 1.2.3
 		 */
 		ready: function() {
+
+			// Set user identifier
+			WPForms.setUserIndentifier();
 
 			WPForms.loadValidation();
 			WPForms.loadDatePicker();
@@ -169,6 +169,8 @@
 										} else {
 											element.closest( 'tr' ).find( 'th' ).append( error );
 										}
+									} else if ( element.hasClass( 'wpforms-net-promoter-score-option' ) ) {
+										element.closest( 'table' ).after( error );
 									} else {
 										element.parent().parent().parent().append( error );
 									}
@@ -752,7 +754,7 @@
 		 */
 		setUserIndentifier: function() {
 
-			if ( ! WPForms.getCookie('_wpfuuid') ) {
+			if ( wpforms_settings.uuid_cookie && ! WPForms.getCookie('_wpfuuid') ) {
 
 				// Generate UUID - http://stackoverflow.com/a/873856/1489528
 				var s         = new Array(36),
