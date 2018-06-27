@@ -1095,3 +1095,10 @@ h1.site-title, .site-title {
     font-size: 30px !important;
     line-height: 40px !important;
 }
+.fa-facebook-square {
+    padding-right: 20px;
+    padding-top: 18px;
+    color: blue;
+    font-size: 2em;
+    float: right;
+}

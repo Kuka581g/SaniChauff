@@ -42,7 +42,12 @@
 				'walker'			 => new wp_bootstrap_navwalker(),
 			) );
 			?>
-		</div>    
+
+			<div class="media-soc">				
+				<a class="fa fa-facebook-square" style="color:blue;font-size:2em;" href="https://www.facebook.com/2dsanichauff-182299632457265/" target="_blank"></a>						
+			</div>
+		</div>
+		    
 	</nav> 
 </div>
 <?php if ( has_header_image() && is_home() ) { ?>
