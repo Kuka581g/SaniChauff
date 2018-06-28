@@ -9,7 +9,7 @@
 <footer id="colophon" class="footer-credits container-fluid row">
 	<div class="container">
 		<p class="footer-credits-text text-center">
-			<a href="" style="color: black;">Mentions légales<a>
+			<a href="http://www.2dsanichauff.fr/mentions-legales" style="color: black;">Mentions légales<a>
 		</p> 
 	</div>	
 </footer>
